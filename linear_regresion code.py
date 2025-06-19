@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # locating the files:
-excel_Data = pandas.read_excel(r"D:\house.xlsx")  
+excel_Data = pandas.read_excel(r"D:\linear regresion\house.xlsx")  
 print(excel_Data)
 
 #multipling the datas for computation:
