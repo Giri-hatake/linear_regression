@@ -79,6 +79,9 @@ x_range = x_max - x_min
 x_line = np.linspace(x_min - 0.1 * x_range, x_max + 0.1 * x_range, 100)
 y_line = slope * x_line + C
 
+
+print("Now plotting...")
+
 plt.plot(x_line , y_line, label=f'y = {slope}(x) + {C}')
 
 plt.scatter(x, y)
@@ -89,5 +92,14 @@ plt.xlabel('Independent variables( size_sq.ft )')
 plt.ylabel('Dependent variables( Price )')
 plt.title('Linear_regression')
 
+
 plt.savefig(r'D:\linear regresion\my_plot.png')
 plt.show()
+=======
+plt.show()
+
+plt.savefig(r'D:\linear regresion\ploting graph.png')
+
+
+print("Plot displayed.")
+
