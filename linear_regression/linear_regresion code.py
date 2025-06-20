@@ -91,15 +91,9 @@ plt.legend()
 plt.xlabel('Independent variables( size_sq.ft )')
 plt.ylabel('Dependent variables( Price )')
 plt.title('Linear_regression')
-
-
-plt.savefig(r'D:\linear regresion\my_plot.png')
-plt.show()
-=======
 plt.show()
 
 plt.savefig(r'D:\linear regresion\ploting graph.png')
 
 
 print("Plot displayed.")
-
