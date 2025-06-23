@@ -97,5 +97,5 @@ plt.savefig(r'D:\linear regresion\my_plot.png')
 plt.show()
 
 
-print("Plot displayed.")
+
 
